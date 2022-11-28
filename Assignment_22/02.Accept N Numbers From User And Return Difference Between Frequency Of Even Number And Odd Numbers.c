@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-int CountEven(int Arr[],int iLength)
+int Frequency(int Arr[],int iLength)
 {
     int i = 0,ECnt = 0,OCnt = 0;
 
@@ -42,7 +42,7 @@ int main()
         scanf("%d",&p[iCnt]);
     }
 
-    iRet = CountEven(p,iSize);
+    iRet = Frequency(p,iSize);
 
     printf("\n Result Is %d",iRet);
 
